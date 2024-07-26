@@ -10,7 +10,7 @@ const io = require("socket.io")(server, {
     }
 });
 
-const Message = require('./models/Message');
+const Message = require('./models/messageSchema');
 const User = require('./models/user'); // Import User model
 
 mongoose.connect('mongodb://admin:ALQ01jFH2763%5E2H@103.110.127.195:28029/', {
