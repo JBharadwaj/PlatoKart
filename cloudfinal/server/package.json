@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     
-    "start": "npx concurrently \"npm run start-server\" \"npm run start-trial\"",
+    "start": "npm run start-server & npm run start-trial",
     "start-server": "nodemon server.js",
     "start-trial": "nodemon trial.js"
   },
