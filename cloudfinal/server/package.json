@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     
     "start": "npm run start-server & npm run start-trial",
-    "start-server": "nodemon server.js",
-    "start-trial": "nodemon trial.js"
+    "start-server": "node server.js",
+    "start-trial": "node trial.js"
   },
   "author": "Mohammed Mujeeb",
   "license": "ISC",
